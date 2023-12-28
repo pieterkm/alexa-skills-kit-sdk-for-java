@@ -3,7 +3,7 @@
   <groupId>com.amazon.alexa</groupId>
   <artifactId>ask-sdk-pom</artifactId>
   <packaging>pom</packaging>
-  <version>2.86.0</version>
+  <version>2.86.0PIETERKMJAKARTA-SNAPSHOT</version>
   <name>ASK SDK for Java</name>
   <description>The Alexa Skills Kit SDK for Java.</description>
   <url>http://developer.amazon.com/ask</url>
@@ -25,9 +25,9 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <scm>
-    <connection>scm:git:https://github.com/amzn/alexa-skills-kit-java.git</connection>
-    <developerConnection>scm:git:https://github.com/amzn/alexa-skills-kit-java.git</developerConnection>
-    <url>https://github.com/amzn/alexa-skills-kit-java.git</url>
+    <connection>scm:git:https://github.com/pieterkm/alexa-skills-kit-java.git</connection>
+    <developerConnection>scm:git:https://github.com/pieterkm/alexa-skills-kit-java.git</developerConnection>
+    <url>https://github.com/pieterkm/alexa-skills-kit-java.git</url>
   </scm>
 
   <reporting>
@@ -69,8 +69,8 @@
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.7.0</version>
           <configuration>
-            <source>1.8</source>
-            <target>1.8</target>
+            <source>11</source>
+            <target>11</target>
             <forceJavacCompilerUse>true</forceJavacCompilerUse>
           </configuration>
         </plugin>
