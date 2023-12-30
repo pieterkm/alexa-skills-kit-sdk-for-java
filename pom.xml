@@ -30,6 +30,18 @@
     <url>https://github.com/pieterkm/alexa-skills-kit-java.git</url>
   </scm>
 
+  <distributionManagement>
+    <snapshotRepository>
+      <id>local-nexus</id> <!-- ID here and in repository is used to retrieve login credentials from global maven settings -->
+      <url>http://nexus.bowlerblue.net/repository/maven-snapshots/</url>
+    </snapshotRepository>
+    <repository>
+      <id>local-nexus</id>
+      <url>http://nexus.bowlerblue.net/repository/maven-releases</url>
+    </repository>
+  </distributionManagement>
+  
+
   <reporting>
     <plugins>
       <plugin>
