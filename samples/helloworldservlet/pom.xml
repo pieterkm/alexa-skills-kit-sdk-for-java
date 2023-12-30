@@ -40,7 +40,7 @@
     <dependency>
       <groupId>com.amazon.alexa</groupId>
       <artifactId>ask-sdk</artifactId>
-      <version>2.86.0PIETERKMJAKARTA-SNAPSHOT</version>
+      <version>2.86.0PIETERKMJAKARTA</version>
     </dependency>
     <dependency>
       <groupId>javax.servlet</groupId>
